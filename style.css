@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sekuya&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    background-color: #EDECE2;
+    height: 100%;
+    width: 100%;
+}
+header{
+    display: flex;
+    gap: 8%;
+    height: 70px;
+    /* background-color: yellow; */
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background-color: black;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+.navigate{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.navigate li a{
+    text-decoration: none;
+    color: white;
+}
+.Join{
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 100px;
+}
+
+.heading{
+    font-family: "Sekuya", system-ui;
+    font-size:90px;
+    line-height: 90px;
+    padding: 3.5% 10% 0% 7%;
+    text-align: right;
+}
+main section{
+    display: flex;
+    justify-content: center;
+}
+main section .auburn{
+    /* display: inline-block; */
+    position: relative;
+    /* display:; */
+    right: 5%;
+    
+    padding: 5% 0%;;
+    width: 300px;
+}
+.o1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.o2{
+    background-color: rgb(75, 166, 0);
+    height: 100px;
+    width: 100px;
+}
+.official{
+    position: absolute;
+    top: 420px;
+    left: 50%;
+    width: 200px;
+    /* height: 10p */
+}
+.Anime{
+    position: absolute;
+    width: 500px;
+    top: 550px;
+    left: 10%;
+}
+.aa{
+    position: absolute;
+    width: 600px;
+    top: 650px;
+    left: 50%;
+    
+}
